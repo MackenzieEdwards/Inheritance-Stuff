@@ -15,10 +15,9 @@ public class Mammal extends Animal{
 	{
 	System.out.println("The mammal can make noise...");
 	}
-	@Override
 	public void flies()
 	{
-	System.out.println("The mammal can fly...");
+	System.out.println("The cow cannot fly.");
 	}
-
+	
 }

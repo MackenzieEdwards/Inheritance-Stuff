@@ -13,6 +13,7 @@ public class AnimalRunner
 			animal[i].bearsYoung();
 			animal[i].makesNoise();
 			animal[i].eats();
+			animal[i].flies();
 			if(animal[i] instanceof Flyable)
 				{
 				animal[i].flies();

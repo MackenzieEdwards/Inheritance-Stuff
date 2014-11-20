@@ -1,23 +1,29 @@
 
 public class Bat extends Mammal{
+	public Bat()
+	{
+	name = "bat";
+	food = "insects";
+	}
+
 	@Override
 	public void bearsYoung()
 	{
-	System.out.println("Ooo look the animal baby is a baby bat.");
+	System.out.println("Ooo a cute little animal baby!");
 	}
 	@Override
 	public void eats()
 	{
-	System.out.println("The bat is looking forward to eating some insects.");
+	System.out.println("The " + name + " is looking forward to eating some " + food + "!");
 	}
 	@Override
 	public void makesNoise()
 	{
-	System.out.println("The bat emits an ultrasonic pulse.");
+	System.out.println("The " + name + "emits an ultrasonic pulse!");
 	}
 	@Override
 	public void flies()
 	{
-	System.out.println("The bat can also fly!");
+	System.out.println("The " + name + " can also fly!");
 	}
 }

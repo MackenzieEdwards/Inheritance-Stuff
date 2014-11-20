@@ -3,7 +3,7 @@ public class Bird extends Animal{
 	@Override
 	public void bearsYoung()
 	{
-	System.out.println("The bird can bear young...");
+	System.out.println("Ooo look at the cute little egg!");
 	}
 	@Override
 	public void eats()
